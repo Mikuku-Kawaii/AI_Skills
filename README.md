@@ -1,6 +1,6 @@
 # AI_Skills
 
-保存 ASMRplayer 与 Local Creative Intelligence Workspace 两个项目的 11 个技能，按用途分类。每个目录保留来源项目的技能原文。
+保存 ASMRplayer 与 Local Creative Intelligence Workspace 两个项目的 13 个技能，按用途分类：架构 1 个、UI / 交互 11 个、音频 / DSP 1 个。每个目录保留来源项目的技能原文。
 
 ## 分类索引
 
@@ -13,7 +13,9 @@
 | UI / 交互 | [ui-design-system](skills/ui/ui-design-system/SKILL.md) | 组件语义、Token、颜色、字阶与密度 | Local Creative Intelligence Workspace |
 | UI / 交互 | [ui-knowledge-evidence](skills/ui/ui-knowledge-evidence/SKILL.md) | 知识关系、引用与证据追溯 | Local Creative Intelligence Workspace |
 | UI / 交互 | [ui-motion](skills/ui/ui-motion/SKILL.md) | 过渡、动效与减少动态偏好 | Local Creative Intelligence Workspace |
+| UI / 交互 | [ui-settings-design](skills/ui/ui-settings-design/SKILL.md) | 设置分类、配置行、控件选型与提交语义 | Local Creative Intelligence Workspace |
 | UI / 交互 | [ui-state-feedback](skills/ui/ui-state-feedback/SKILL.md) | 异步、表单、任务与错误反馈 | Local Creative Intelligence Workspace |
+| UI / 交互 | [ui-text-presentation](skills/ui/ui-text-presentation/SKILL.md) | 信息层级、字阶、文案密度与扩展布局 | Local Creative Intelligence Workspace |
 | UI / 交互 | [ui-visual-regression](skills/ui/ui-visual-regression/SKILL.md) | 页面与共享组件的视觉和交互验收 | Local Creative Intelligence Workspace |
 | UI / 交互 | [ui-workspace-layout](skills/ui/ui-workspace-layout/SKILL.md) | 应用壳、导航、分栏、标题栏与滚动 | Local Creative Intelligence Workspace |
 | 音频 / DSP | [asmr-player-pro-audio-dsp](skills/audio/asmr-player-pro-audio-dsp/SKILL.md) | 音频保真、均衡器、DSP 与峰值限制 | ASMRplayer |
@@ -21,6 +23,8 @@
 ## 通用 Agent 约定
 
 [AGENTS.md](AGENTS.md) 提供任务边界、协作、技能维护、GitHub 同步与验证交付的通用规则，可合并到项目根目录现有 AGENTS.md。项目已有具体约定和用户最新指令优先。
+
+[workflow.md](workflow.md) 保存渐进式开发工作流参考；按项目实际需要选用，涉及任务范围和架构取舍时以用户最新指令及项目约定为准。
 
 ## 使用技能
 
