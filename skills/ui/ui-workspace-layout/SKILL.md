@@ -5,6 +5,14 @@ description: 修改 AppShell、导航、分栏、标题栏或滚动时使用；�
 
 # ui-workspace-layout
 
+## 设计融合：按主任务组织空间
+
+借鉴“先决定页面要完成什么，再安排内容”的方法：工作区围绕当前对象、主要任务与必要辅助上下文组织；只有独立宣传页采用 Hero／利益／证明／转化结构。不要将工作区变成落地页，或把所有侧栏改成浮动玻璃菜单。
+
+按内容和可用容器宽度选择分栏、堆叠和收纳点，保留原阅读顺序、焦点、滚动归属与草稿。窄窗和宽窗分别设计有效留白，不能只缩放桌面截图；展示卡片的入场不得移动常驻壳层或阻挡用户立即操作。
+
+方法参考：[Elaya AI Design Skills](https://github.com/elayadesign/ai-design-skills/tree/38bbe5765600b9178b5395a823c9f6c8d2b8e730)；以上为面向本技能的适配，现有项目契约与用户明确要求优先。
+
 ## 输入与前置检查
 
 从仓库根读取 AGENTS.md、apps/web/AGENTS.md 和 [设计系统](../../../docs/ui/DESIGN_SYSTEM.md)，只加载本次相关规范。读取 App.jsx、AppTitleBar、平台 window 适配、useSidebarLayout；检查稳定 key 和现有视角。

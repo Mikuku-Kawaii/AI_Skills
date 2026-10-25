@@ -5,6 +5,14 @@ description: 修改工作区组件、操作层级、按钮和状态文案、颜�
 
 # ui-design-system
 
+## 设计融合：选择方向再映射到项目系统
+
+先用一句话说明产品主任务、受众、希望形成的视觉识别点，再列少量可验证的排版／间距／颜色／材质规则。已有产品优先在现有 Token 和组件上实现；字体、图标、圆角与颜色是品牌和平台选择，不全局导入外部字体黑名单、固定色板或 Tailwind 数值。
+
+强调层级应对应主要动作和内容权重，同一状态在不同宿主保持语义一致。新意可来自内容组织、构图、图形或精确反馈，不要求每个页面都用巨型标题、玻璃胶囊、渐变或 Bento 卡片。检查默认、悬停、按下、焦点、禁用和异步状态的真实需求，没有该状态的静态元素不人为补交互。
+
+方法参考：[Elaya AI Design Skills](https://github.com/elayadesign/ai-design-skills/tree/38bbe5765600b9178b5395a823c9f6c8d2b8e730)；以上为面向本技能的适配，现有项目契约与用户明确要求优先。
+
 ## 输入与前置检查
 
 从仓库根读取 AGENTS.md、apps/web/AGENTS.md 和 [设计系统](../../../docs/ui/DESIGN_SYSTEM.md)，只加载本次相关规范。检查 styles/tokens.css 与 components/ui 当前实现和 package-lock；先确认现有组件来源。

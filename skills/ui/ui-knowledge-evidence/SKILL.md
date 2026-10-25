@@ -5,6 +5,14 @@ description: 修改知识网、关系检查器、原文引用或聊天证据展�
 
 # ui-knowledge-evidence
 
+## 设计融合：证据优先于视觉叙事
+
+可借鉴落地页“主张旁边给证明”的阅读结构：解释或关系摘要旁提供原文位置、材料身份和依据类型，详情按需展开但始终可追溯。空白、未加载、无依据和相互矛盾分别呈现，不能用逼真的案例姓名、数量、推荐语或装饰图补足缺证据的页面。
+
+关系动画只表达已有选择、导航和加载变化，不把循环脉冲暗示成事实传播、因果成立或实时模型处理。演示数据需独立标识，不能混入用户知识图、人工审核结果或引用正文。
+
+方法参考：[Elaya AI Design Skills](https://github.com/elayadesign/ai-design-skills/tree/38bbe5765600b9178b5395a823c9f6c8d2b8e730)；以上为面向本技能的适配，现有项目契约与用户明确要求优先。
+
 ## 输入与前置检查
 
 从仓库根读取 AGENTS.md、apps/web/AGENTS.md 和 [设计系统](../../../docs/ui/DESIGN_SYSTEM.md)，只加载本次相关规范。读取 Resource/证据字段与 RelationshipDetails、ViewpointCards；辨认历史数据和失效来源。
