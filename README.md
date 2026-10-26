@@ -1,6 +1,6 @@
 # AI_Skills
 
-维护 16 个技能：来自 ASMRplayer 与 Local Creative Intelligence Workspace 的 13 个项目技能，以及落地页设计、设计转动效、八维设计质量审查 3 个通用技能。按用途分为架构 1 个、UI / 交互 14 个、音频 / DSP 1 个。
+维护 18 个技能：来自 ASMRplayer 与 Local Creative Intelligence Workspace 的 13 个项目技能，以及落地页设计、设计转动效、八维设计质量审查、液态玻璃底部导航、液态空间切换 5 个通用技能。按用途分为架构 1 个、UI / 交互 16 个、音频 / DSP 1 个。
 
 已融合 [Elaya AI Design Skills](https://github.com/elayadesign/ai-design-skills) 的页面策略、视觉组织与展示动效方法，并按各项目实际约束适配；来源、固定版本及 MIT 许可见 [第三方说明](THIRD_PARTY_NOTICES.md)。
 
@@ -13,6 +13,8 @@
 | UI / 交互 | [landing-page-design](skills/ui/landing-page-design/SKILL.md) | 营销页面策略、真实证明、转化主线与视觉系统 | Elaya / 本仓库适配 |
 | UI / 交互 | [design-to-motion](skills/ui/design-to-motion/SKILL.md) | 静态保真、视觉叙事、可重复录制与媒体导出 | Elaya / 本仓库适配 |
 | UI / 交互 | [ui-design-quality](skills/ui/ui-design-quality/SKILL.md) | 排版、留白、层级、颜色、动效、微交互、响应式、原创性验收 | 用户视觉目标 / 本仓库 |
+| UI / 交互 | [liquid-glass-bottom-navigation](skills/ui/liquid-glass-bottom-navigation/SKILL.md) | Compose 真实背景采样、透镜选中态、自适应底栏与 Tab 弹簧反馈 | FluxManga 源码提炼 / 本仓库维护 |
+| UI / 交互 | [liquid-world-transition](skills/ui/liquid-world-transition/SKILL.md) | 融入分裂、冲击波揭示、主题进度与空间状态交接 | FluxManga 源码提炼 / 本仓库维护 |
 | UI / 交互 | [ui-accessibility](skills/ui/ui-accessibility/SKILL.md) | 键盘、焦点、输入法与可访问性 | Local Creative Intelligence Workspace |
 | UI / 交互 | [ui-defensive-layout](skills/ui/ui-defensive-layout/SKILL.md) | 动态文本、极端内容与布局溢出 | Local Creative Intelligence Workspace |
 | UI / 交互 | [ui-design-system](skills/ui/ui-design-system/SKILL.md) | 组件语义、Token、颜色、字阶与密度 | Local Creative Intelligence Workspace |
@@ -37,10 +39,10 @@
 
 项目技能包含来源项目的专用路径、接口与规范；相关源码和项目文档不在本仓库，指向它们的链接需要在来源项目中解析。移植前核对这些依赖。ASMR 架构技能已明确当前引擎使用进程内 libmpv；保留的 Named Pipe/sidecar 内容属于历史方案，以当前源码与项目 AGENTS 为准。
 
-新通用技能可独立复制整个目录使用，保留 references 与 LICENSE。落地页方法不强制改造生产工作区；展示动画不替代真实产品反馈；八维审查以实际页面和证据为准，不能保证获奖或无穷意义上的完美。现有品牌、Material 组件、平台规范和用户明确要求优先于外部模板的风格偏好。
+通用技能可独立复制整个目录使用，保留 references 及已有 LICENSE。液态玻璃两项技能根据 FluxManga 2026-10-26 当前源码整理，只提供方法与参数说明，不附带应用或第三方 shader 源码；具体数值不是平台规范，也不代表设备性能验收。落地页方法不强制改造生产工作区；展示动画不替代真实产品反馈；八维审查以实际页面和证据为准，不能保证获奖或无穷意义上的完美。现有品牌、Material 组件、平台规范和用户明确要求优先于外部模板的风格偏好。
 
 ## 同步约定
 
-13 个项目技能以来源项目的 `.agents/skills/` 为维护源；中央改进须合并回来源后保持副本一致。3 个新通用技能由本仓库维护，不因更新仓库自动安装到所有本地项目。每次获准上传项目到 GitHub 时，同步新增／修改／重命名／删除的技能到上述分类路径，保留完整配套目录；无变化不产生重复提交。新增技能或分类同步更新本索引。
+13 个项目技能以来源项目的 `.agents/skills/` 为维护源；中央改进须合并回来源后保持副本一致。5 个通用技能由本仓库维护，不因更新仓库自动安装到所有本地项目。每次获准上传项目到 GitHub 时，同步新增／修改／重命名／删除的技能到上述分类路径，保留完整配套目录；无变化不产生重复提交。新增技能或分类同步更新本索引。
 
 先比较中央仓库的当前内容，保留其他来源和并发修改。网络或权限失败应报告技能尚未同步；核对远端文件和提交后才报告成功。这里是项目上传流程中的规则，没有配置后台自动同步任务。
