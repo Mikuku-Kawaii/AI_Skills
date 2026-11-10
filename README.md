@@ -27,6 +27,16 @@
 | UI / 交互 | [ui-workspace-layout](skills/ui/ui-workspace-layout/SKILL.md) | 应用壳、导航、分栏、标题栏与滚动 | Local Creative Intelligence Workspace |
 | 音频 / DSP | [asmr-player-pro-audio-dsp](skills/audio/asmr-player-pro-audio-dsp/SKILL.md) | 音频保真、均衡器、DSP 与峰值限制 | ASMRplayer |
 
+## ASMR Player 项目技能
+
+项目适配版按原目录归档，以保留技能间的引用、资源及许可。来源见[适配记录](projects/ASMRplayer/skills/SOURCES.md)。
+
+| 用途 | 技能 |
+| --- | --- |
+| Android 与架构 | [android-compose-development](projects/ASMRplayer/skills/android-compose-development/SKILL.md)、[asmr-player-architecture](projects/ASMRplayer/skills/asmr-player-architecture/SKILL.md) |
+| 音频 | [asmr-player-pro-audio-dsp](projects/ASMRplayer/skills/asmr-player-pro-audio-dsp/SKILL.md) |
+| UI 与交互 | [adaptive-liquid-glass](projects/ASMRplayer/skills/adaptive-liquid-glass/SKILL.md)、[asmr-player-m3-ui-standards](projects/ASMRplayer/skills/asmr-player-m3-ui-standards/SKILL.md)、[design-taste-frontend](projects/ASMRplayer/skills/design-taste-frontend/SKILL.md)、[impeccable](projects/ASMRplayer/skills/impeccable/SKILL.md)、[liquid-glass-bottom-navigation](projects/ASMRplayer/skills/liquid-glass-bottom-navigation/SKILL.md)、[ui-accessibility](projects/ASMRplayer/skills/ui-accessibility/SKILL.md)、[ui-defensive-layout](projects/ASMRplayer/skills/ui-defensive-layout/SKILL.md)、[ui-design-quality](projects/ASMRplayer/skills/ui-design-quality/SKILL.md)、[ui-design-system](projects/ASMRplayer/skills/ui-design-system/SKILL.md)、[ui-motion](projects/ASMRplayer/skills/ui-motion/SKILL.md)、[ui-settings-design](projects/ASMRplayer/skills/ui-settings-design/SKILL.md)、[ui-state-feedback](projects/ASMRplayer/skills/ui-state-feedback/SKILL.md)、[ui-text-presentation](projects/ASMRplayer/skills/ui-text-presentation/SKILL.md)、[ui-visual-regression](projects/ASMRplayer/skills/ui-visual-regression/SKILL.md)、[ui-workspace-layout](projects/ASMRplayer/skills/ui-workspace-layout/SKILL.md) |
+
 ## 通用 Agent 约定
 
 [AGENTS.md](AGENTS.md) 提供任务边界、协作、技能维护、GitHub 同步与验证交付的通用规则，可合并到项目根目录现有 AGENTS.md。项目已有具体约定和用户最新指令优先。
