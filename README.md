@@ -16,6 +16,7 @@
 | [Impeccable · pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 用 critique、audit、polish 等工作流审查并精修现有界面 |
 | [Taste Skill · Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 网页设计方向、参考素材、页面构图与浏览器视觉检查 |
 | [Emil Design Engineering · emilkowalski/skills](https://github.com/emilkowalski/skills) | 交互动效、缓动与节奏、手势及设计工程细节 |
+| [Animate UI · imskyleen/animate-ui](https://github.com/imskyleen/animate-ui) | 基于 Motion 的 React / Vue 动效组件与配套 [Agent Skill](https://github.com/imskyleen/animate-ui/tree/main/skills/animate-ui)，用于 shadcn 等组件的动画接入、图标动效与动效审查 |
 | [Vercel Web Design Guidelines · agent-skills](https://github.com/vercel-labs/agent-skills) | Web 界面的可访问性、交互与体验审查；同库提供 React / Next.js 性能实践 |
 | [Frontend Design · anthropics/skills](https://github.com/anthropics/skills) | 前端视觉设计技能；同库还提供文档制作、开发与工作流示例 |
 | [Hallmark · Nutlope/hallmark](https://github.com/Nutlope/hallmark) | 从页面任务选择设计主题，结合浏览器检查完成构建、改版与审查 |
