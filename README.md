@@ -6,7 +6,7 @@
 
 ## 外部技能与设计资源
 
-设计清单参考 [BenjaminUIX 的 10 项推荐](https://x.com/BenjaminUIX/status/2122286309855338953)，并按各项目官网与 README 核对用途。链接核对日期：2026-11-17。
+设计清单参考 [BenjaminUIX 的 10 项推荐](https://x.com/BenjaminUIX/status/2122286309855338953)，并补充用户指定的资源；用途按各项目官网与 README 核对。链接核对日期：2026-11-17。
 
 ### 界面设计与动效
 
@@ -21,6 +21,7 @@
 | [Hallmark · Nutlope/hallmark](https://github.com/Nutlope/hallmark) | 从页面任务选择设计主题，结合浏览器检查完成构建、改版与审查 |
 | [Make Interfaces Feel Better](https://github.com/jakubkrehel/make-interfaces-feel-better) | 打磨排版、图标、悬停、光学对齐、圆角、阴影与点击区域 |
 | [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 跨平台 UI/UX 指南，以及风格、配色、字体组合与设计系统检索 |
+| [Material Design 3 UI/UX · skydashnet](https://github.com/skydashnet/material-design-3-ui-skill) | 基于 Material Design 3、Material You 与可选 M3 Expressive 设计、审查和实现界面，涵盖语义 Token、组件选型、自适应布局与可访问性 |
 | [Stageshow · benjitaylor/skills](https://github.com/benjitaylor/skills) | 用 React 制作产品 UI 示意图、功能卡片、光标演示与 Bento 展示动画 |
 
 按任务选择 2～3 个职责互补的技能或工具：确定视觉方向、检查可用性、打磨动效。先沿用项目品牌与设计系统，再采用相关建议。
