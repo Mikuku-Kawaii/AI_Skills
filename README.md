@@ -1,8 +1,40 @@
 # AI_Skills
 
-维护 18 个技能：来自 ASMRplayer 与 Local Creative Intelligence Workspace 的 13 个项目技能，以及落地页设计、设计转动效、八维设计质量审查、液态玻璃底部导航、液态空间切换 5 个通用技能。按用途分为架构 1 个、UI / 交互 16 个、音频 / DSP 1 个。
+分类目录收录 8 个技能：ASMRplayer 的 3 个项目技能与 5 个通用技能，分为架构 1 个、UI / 交互 6 个、音频 / DSP 1 个。另在 `projects/ASMRplayer/skills/` 保存 18 个项目适配技能，保留完整引用、资源与许可。
 
 已融合 [Elaya AI Design Skills](https://github.com/elayadesign/ai-design-skills) 的页面策略、视觉组织与展示动效方法，并按各项目实际约束适配；来源、固定版本及 MIT 许可见 [第三方说明](THIRD_PARTY_NOTICES.md)。
+
+## 外部技能与设计资源
+
+设计清单参考 [BenjaminUIX 的 10 项推荐](https://x.com/BenjaminUIX/status/2122286309855338953)，并按各项目官网与 README 核对用途。链接核对日期：2026-11-17。
+
+### 界面设计与动效
+
+| 资源 | 主要用途 |
+| --- | --- |
+| [Anti UI Slop / Uizze](https://uizze.com/) | UI 参考服务：查找界面与用户流程案例，为设计提供视觉参考 |
+| [Impeccable · pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 用 critique、audit、polish 等工作流审查并精修现有界面 |
+| [Taste Skill · Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 网页设计方向、参考素材、页面构图与浏览器视觉检查 |
+| [Emil Design Engineering · emilkowalski/skills](https://github.com/emilkowalski/skills) | 交互动效、缓动与节奏、手势及设计工程细节 |
+| [Vercel Web Design Guidelines · agent-skills](https://github.com/vercel-labs/agent-skills) | Web 界面的可访问性、交互与体验审查；同库提供 React / Next.js 性能实践 |
+| [Frontend Design · anthropics/skills](https://github.com/anthropics/skills) | 前端视觉设计技能；同库还提供文档制作、开发与工作流示例 |
+| [Hallmark · Nutlope/hallmark](https://github.com/Nutlope/hallmark) | 从页面任务选择设计主题，结合浏览器检查完成构建、改版与审查 |
+| [Make Interfaces Feel Better](https://github.com/jakubkrehel/make-interfaces-feel-better) | 打磨排版、图标、悬停、光学对齐、圆角、阴影与点击区域 |
+| [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 跨平台 UI/UX 指南，以及风格、配色、字体组合与设计系统检索 |
+| [Stageshow · benjitaylor/skills](https://github.com/benjitaylor/skills) | 用 React 制作产品 UI 示意图、功能卡片、光标演示与 Bento 展示动画 |
+
+按任务选择 2～3 个职责互补的技能或工具：确定视觉方向、检查可用性、打磨动效。先沿用项目品牌与设计系统，再采用相关建议。
+
+### 其他技能库
+
+| 方向 | 仓库 | 主要用途 |
+| --- | --- | --- |
+| 页面与设计工具 | [Elaya · ai-design-skills](https://github.com/elayadesign/ai-design-skills) | 落地页、视觉系统与 Figma 设计方法；本仓库部分技能的上游来源 |
+| Codex 技能与插件 | [OpenAI · plugins](https://github.com/openai/plugins) | 官方插件示例及配套技能；原 [openai/skills](https://github.com/openai/skills) 已标记弃用并指向此仓库 |
+| 软件开发流程 | [Superpowers · obra/superpowers](https://github.com/obra/superpowers) | 需求梳理、实现计划、测试驱动开发与审查流程 |
+| 视频制作 | [Remotion · skills](https://github.com/remotion-dev/skills) | 用 React 制作视频的布局、动画、时间轴、字幕与渲染实践 |
+
+安装与更新方式见各上游 README。ASMRplayer 目录中的 Taste Skill 与 Impeccable 是项目适配快照，具体版本见其来源记录；需要上游最新版时从上表进入。
 
 ## 分类索引
 
@@ -15,16 +47,6 @@
 | UI / 交互 | [ui-design-quality](skills/ui/ui-design-quality/SKILL.md) | 排版、留白、层级、颜色、动效、微交互、响应式、原创性验收 | 用户视觉目标 / 本仓库 |
 | UI / 交互 | [liquid-glass-bottom-navigation](skills/ui/liquid-glass-bottom-navigation/SKILL.md) | Compose 真实背景采样、透镜选中态、自适应底栏与 Tab 弹簧反馈 | FluxManga 源码提炼 / 本仓库维护 |
 | UI / 交互 | [liquid-world-transition](skills/ui/liquid-world-transition/SKILL.md) | 融入分裂、冲击波揭示、主题进度与空间状态交接 | FluxManga 源码提炼 / 本仓库维护 |
-| UI / 交互 | [ui-accessibility](skills/ui/ui-accessibility/SKILL.md) | 键盘、焦点、输入法与可访问性 | Local Creative Intelligence Workspace |
-| UI / 交互 | [ui-defensive-layout](skills/ui/ui-defensive-layout/SKILL.md) | 动态文本、极端内容与布局溢出 | Local Creative Intelligence Workspace |
-| UI / 交互 | [ui-design-system](skills/ui/ui-design-system/SKILL.md) | 组件语义、Token、颜色、字阶与密度 | Local Creative Intelligence Workspace |
-| UI / 交互 | [ui-knowledge-evidence](skills/ui/ui-knowledge-evidence/SKILL.md) | 知识关系、引用与证据追溯 | Local Creative Intelligence Workspace |
-| UI / 交互 | [ui-motion](skills/ui/ui-motion/SKILL.md) | 过渡、动效与减少动态偏好 | Local Creative Intelligence Workspace |
-| UI / 交互 | [ui-settings-design](skills/ui/ui-settings-design/SKILL.md) | 设置分类、配置行、控件选型与提交语义 | Local Creative Intelligence Workspace |
-| UI / 交互 | [ui-state-feedback](skills/ui/ui-state-feedback/SKILL.md) | 异步、表单、任务与错误反馈 | Local Creative Intelligence Workspace |
-| UI / 交互 | [ui-text-presentation](skills/ui/ui-text-presentation/SKILL.md) | 信息层级、字阶、文案密度与扩展布局 | Local Creative Intelligence Workspace |
-| UI / 交互 | [ui-visual-regression](skills/ui/ui-visual-regression/SKILL.md) | 页面与共享组件的视觉和交互验收 | Local Creative Intelligence Workspace |
-| UI / 交互 | [ui-workspace-layout](skills/ui/ui-workspace-layout/SKILL.md) | 应用壳、导航、分栏、标题栏与滚动 | Local Creative Intelligence Workspace |
 | 音频 / DSP | [asmr-player-pro-audio-dsp](skills/audio/asmr-player-pro-audio-dsp/SKILL.md) | 音频保真、均衡器、DSP 与峰值限制 | ASMRplayer |
 
 ## ASMR Player 项目技能
@@ -61,6 +83,8 @@
 
 ## 同步约定
 
-13 个项目技能以来源项目的 `.agents/skills/` 为维护源；中央改进须合并回来源后保持副本一致。5 个通用技能由本仓库维护，不因更新仓库自动安装到所有本地项目。每次获准上传项目到 GitHub 时，同步新增／修改／重命名／删除的技能到上述分类路径，保留完整配套目录；无变化不产生重复提交。新增技能或分类同步更新本索引。
+ASMRplayer 项目技能以来源项目的 `.agents/skills/` 为维护源；中央改进须合并回来源后保持副本一致。项目适配版按 `projects/ASMRplayer/skills/` 目录同步，5 个通用技能由本仓库维护。每次获准上传项目到 GitHub 时，同步已收录来源的技能变更，保留完整配套目录；新增技能或分类同步更新本索引。
+
+Local Creative Intelligence Workspace 来源的 10 个技能已于 2026-11-17 从中央分类目录移除，该来源不再同步到本仓库；恢复收录需用户明确要求。ASMRplayer 中已独立适配的同名技能按其项目来源继续维护。
 
 先比较中央仓库的当前内容，保留其他来源和并发修改。网络或权限失败应报告技能尚未同步；核对远端文件和提交后才报告成功。这里是项目上传流程中的规则，没有配置后台自动同步任务。

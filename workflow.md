@@ -28,7 +28,7 @@ description: 从实际功能与信息层级推导实现，按任务规模组织�
 | --- | --- | --- |
 | 营销站／落地页 | [landing-page-design](skills/ui/landing-page-design/SKILL.md) | 内容策略、真实证明、转化路径与页面节奏 |
 | 静态设计转展示动画或视频 | [design-to-motion](skills/ui/design-to-motion/SKILL.md) | 静态保真、时间线、按需录制导出 |
-| 产品中的交互动效 | [ui-motion](skills/ui/ui-motion/SKILL.md) | 真实状态、及时反馈、减少动效与中断 |
+| 产品中的交互动效 | 目标项目现有动效规范与相关技能 | 真实状态、及时反馈、减少动效与中断 |
 | 高视觉完成度验收 | [ui-design-quality](skills/ui/ui-design-quality/SKILL.md) | 八维观察、可核实参考和具体差距迭代 |
 
 营销与展示方法不强制改造生产工作区；项目专用技能移植前核对来源约束与外部文档。
