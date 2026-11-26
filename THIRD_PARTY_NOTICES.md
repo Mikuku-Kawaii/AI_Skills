@@ -14,4 +14,10 @@
 
 整理为 [ui-design-quality](skills/ui/ui-design-quality/SKILL.md)。八个检查维度全部保留；奖项作品按实际项目用途核查，不宣称本技能或依此制作的页面获得奖项。无限完美条件改为具体差距修复、同条件复查和有证据的完成／受阻状态。
 
+## 雷电芽衣前端初版规范
+
+- 来源：雷电芽衣（`@ZacharyZhang`）文章《在做精细化UI前，最基础的让AI写出干净界面的前端规范》（[X 原文](https://x.com/ZacharyZhang/status/2125643199158817074) / [博客原文](https://zacharyzhang.com/blog/ai-frontend-design-rules)，读取日期 2026-11-26）。
+- 整理并改编为 [clean-frontend-baseline](skills/ui/clean-frontend-baseline/SKILL.md) 与 [design-template.md](skills/ui/clean-frontend-baseline/references/design-template.md)，为工程化中文改编，不标为原文搬运。
+- 主要改编点：优先遵循本仓库 Lucide 图标约定、改用成熟无头组件库替代手写安全三角区、补充中文字体回退栈与三级字阶、区分展示页与效率工具留白密度、修正纯 hover 隐藏导致的触控/键盘不可达问题，并补全表面色阶、七态闭环及防御性布局约束。
+
 本文件仅说明已纳入内容的来源；不将原项目技能或整个仓库重新许可为 MIT。

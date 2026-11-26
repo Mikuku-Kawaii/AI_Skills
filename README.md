@@ -1,6 +1,6 @@
 # AI_Skills
 
-分类目录收录 8 个技能：ASMRplayer 的 3 个项目技能与 5 个通用技能，分为架构 1 个、UI / 交互 6 个、音频 / DSP 1 个。另在 `projects/ASMRplayer/skills/` 保存 18 个项目适配技能，保留完整引用、资源与许可。
+分类目录收录 9 个技能：ASMRplayer 的 3 个项目技能与 6 个通用技能，分为架构 1 个、UI / 交互 7 个、音频 / DSP 1 个。另在 `projects/ASMRplayer/skills/` 保存 18 个项目适配技能，保留完整引用、资源与许可。
 
 已融合 [Elaya AI Design Skills](https://github.com/elayadesign/ai-design-skills) 的页面策略、视觉组织与展示动效方法，并按各项目实际约束适配；来源、固定版本及 MIT 许可见 [第三方说明](THIRD_PARTY_NOTICES.md)。
 
@@ -44,6 +44,7 @@
 | --- | --- | --- | --- |
 | 架构 | [asmr-player-architecture](skills/architecture/asmr-player-architecture/SKILL.md) | 播放器架构、领域约束与工程规范 | ASMRplayer |
 | UI / 交互 | [asmr-player-m3-ui-standards](skills/ui/asmr-player-m3-ui-standards/SKILL.md) | Material Design 3、界面与交互文案 | ASMRplayer |
+| UI / 交互 | [clean-frontend-baseline](skills/ui/clean-frontend-baseline/SKILL.md) | 新建页面的干净初版基线、量化排版与配色、无头菜单交互及真实渲染验收 | 雷电芽衣前端规范 / 本仓库改编维护 |
 | UI / 交互 | [landing-page-design](skills/ui/landing-page-design/SKILL.md) | 营销页面策略、真实证明、转化主线与视觉系统 | Elaya / 本仓库适配 |
 | UI / 交互 | [design-to-motion](skills/ui/design-to-motion/SKILL.md) | 静态保真、视觉叙事、可重复录制与媒体导出 | Elaya / 本仓库适配 |
 | UI / 交互 | [ui-design-quality](skills/ui/ui-design-quality/SKILL.md) | 排版、留白、层级、颜色、动效、微交互、响应式、原创性验收 | 用户视觉目标 / 本仓库 |
@@ -85,7 +86,7 @@
 
 ## 同步约定
 
-ASMRplayer 项目技能以来源项目的 `.agents/skills/` 为维护源；中央改进须合并回来源后保持副本一致。项目适配版按 `projects/ASMRplayer/skills/` 目录同步，5 个通用技能由本仓库维护。每次获准上传项目到 GitHub 时，同步已收录来源的技能变更，保留完整配套目录；新增技能或分类同步更新本索引。
+ASMRplayer 项目技能以来源项目的 `.agents/skills/` 为维护源；中央改进须合并回来源后保持副本一致。项目适配版按 `projects/ASMRplayer/skills/` 目录同步，6 个通用技能由本仓库维护。每次获准上传项目到 GitHub 时，同步已收录来源的技能变更，保留完整配套目录；新增技能或分类同步更新本索引。
 
 Local Creative Intelligence Workspace 来源的 10 个技能已于 2026-11-17 从中央分类目录移除，该来源不再同步到本仓库；恢复收录需用户明确要求。ASMRplayer 中已独立适配的同名技能按其项目来源继续维护。
 

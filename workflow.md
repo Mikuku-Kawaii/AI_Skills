@@ -26,6 +26,7 @@ description: 从实际功能与信息层级推导实现，按任务规模组织�
 
 | 场景 | 技能入口 | 使用边界 |
 | --- | --- | --- |
+| 新建页面／干净初版基线 | [clean-frontend-baseline](skills/ui/clean-frontend-baseline/SKILL.md) | 量化布局、90/10 配色、4px 栅格、无头交互组件与渲染验收基线 |
 | 营销站／落地页 | [landing-page-design](skills/ui/landing-page-design/SKILL.md) | 内容策略、真实证明、转化路径与页面节奏 |
 | 静态设计转展示动画或视频 | [design-to-motion](skills/ui/design-to-motion/SKILL.md) | 静态保真、时间线、按需录制导出 |
 | 产品中的交互动效 | 目标项目现有动效规范与相关技能 | 真实状态、及时反馈、减少动效与中断 |
